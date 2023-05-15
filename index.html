@@ -13,8 +13,14 @@
         .header {
             text-align: center;
             padding: 50px;
-            background-color: #0099CC;
+            background-image: url('background.jpg');
             color: white;
+            background-size: cover;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
         }
 
         .content {
@@ -25,7 +31,7 @@
         .button {
             margin-top: 20px;
             padding: 10px 20px;
-            background-color: #0099CC;
+            background-color: #FF5A5F;
             color: white;
             border: none;
             border-radius: 5px;
@@ -33,12 +39,19 @@
         }
 
         .button:hover {
-            background-color: #007799;
+            background-color: #FF291F;
+        }
+
+        .image {
+            width: 80%;
+            height: auto;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <div class="header">
+        <img class="logo" src="logo.png" alt="LeaseEase Logo">
         <h1>Welcome to LeaseEase</h1>
         <h2>Creating a New Standard for Long-Term Rentals</h2>
     </div>
@@ -47,6 +60,7 @@
         <p>
             LeaseEase is a new kind of rental platform, making it easier for landlords and tenants to find their perfect match. Our unique two-way matching process and easy-to-understand scoring system takes the guesswork out of long-term renting.
         </p>
+        <img class="image" src="image.jpg" alt="LeaseEase Image">
         <p>
             With LeaseEase, tenants can filter for properties that meet their specific needs, and landlords can set preferences for their ideal tenants. Plus, our scoring system, based on factors like payment history and landlord feedback, gives landlords a clear picture of potential tenants, and gives reliable tenants real benefits, like lower down payments.
         </p>
